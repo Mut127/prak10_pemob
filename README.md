@@ -75,6 +75,7 @@ Setalah edit berhasil dilakukan maka akan tampil data yang telah diperbarui pada
 Untuk melakukan penghapusan terhadap data todo list pengguna dapat menggeser toto listnya ke samping kiri maka akan menampilkan tampilan seperti gambar diatas. Fungsi handleDelete() memanggil firestoreService.deleteTodo() dengan ID todo yang akan dihapus, kemudian memuat ulang daftar todo.
 
 ![Lampiran Tampilan](afterdelete.png)
+
 Setalah delete berhasil dilakukan maka data yang telah dihapus akan hidalng pada halaman home, seperti gambar diatas ini dan menampilkan alert sukses.
 
 4. **Tampilan Halaman Profile**:
